@@ -1,0 +1,260 @@
+/*css初始化*/
+*{
+    box-sizing: content-box;
+}
+html,body,div,span,a,img,button{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+    vertical-align: middle;
+}
+/*<!--导航-->*/
+.top{
+    height: 31px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+nav.top span,nav.top a{
+    color: #999;
+    margin: 0 10px 0 10px;
+}
+.redColor{
+    color: #C40000 !important;
+}
+nav.top{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover{
+    color: #C40000;
+}
+.demo-icon:before{
+    font-size: 14px;
+}
+/*搜索框*/
+.simpleSearchDiv{
+    background-color: #C40000;
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin: 10px 20px 40px;
+    padding: 1px;
+}
+div.simpleSearchDiv input{
+    width: 225px;
+    height: 32px;
+    border: 1px solid transparent;
+    margin: 2px;
+    outline: none;
+    font-size: 12px;
+    position: absolute;
+}
+div.simpleSearchDiv .searchButton{
+    width: 62px;
+    background-color: #c40000;
+    border: 1px solid transparent;
+    color: white;
+    font-size: 14px;
+    position: relative;
+    position: relative;
+    left: 237px;
+    top: 8px;
+}
+
+div.simpleSearchDiv .searchBellow{
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+div.simpleSearchDiv .searchBellow span{
+    color: #999;
+}
+div.simpleSearchDiv .searchBellow span a{
+    color: #999;
+    font-size: 14px;
+    padding:0px 25px 0px 20px;
+    text-decoration: none;
+}
+img.simpleLogo{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    width: 140px;
+    vertical-align:middle;
+}
+div.simpleSearchOutDiv{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+div.simpleSearchDiv .searchBellow span a:hover{
+    color: #c40000;
+}
+
+/*支付成功页面*/
+div.payedDiv{
+    max-width: 1013px;
+    border: 1px solid #D4D4D4;
+    margin: 10px auto 20px auto;
+}
+div.payedTextDiv{
+    background-color: #ecffdc;
+    padding: 17px 0px 0px 25px;
+    height: 61px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+div.payedTextDiv img{
+    vertical-align: middle;
+}
+div.payedTextDiv span{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+div.payedAddressInfo{
+    padding: 26px 35px;
+}
+div.payedAddressInfo li{
+    list-style: none;
+    background-image: url("imgs/li_dot.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: 0px 13px;
+    background-attachment: scroll;
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #333;
+}
+span.payedInfoPrice{
+    color: #B10000;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+div.paedCheckLinkDiv{
+    padding-left: 38px;
+}
+a.payedCheckLink{
+    color: #2D8CBA;
+}
+a.payedCheckLink:hover{
+    text-decoration: underline;
+}
+div.warningDiv{
+    color: black;
+    padding: 23px 45px;
+}
+div.payedSeperateLine{
+    border-top: 1px dotted #D4D4D4;
+    margin: 0px 31px;
+}
+span.redColor{
+    color: #C40000;
+}
+span.boldWord{
+    font-weight: bold;
+}
+/*页脚1*/
+div.footer{
+    position: relative;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 auto;
+}
+div.footer .footer-ensure{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+div.footer .footer-desc{
+    padding-top: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+div.horizontal_line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;
+}
+div.descColumn{
+    width:20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+div.footer .descColumn span{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.footer .descColumn a{
+    display: block;
+    margin-top: 3px;
+    color: #999;
+    text-decoration: none;
+}
+div.footer .descColumn a:hover{
+    color: #c40000;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+div.footer .copyright div.middle-right{
+    max-width: 1024px;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+}
+.cateye{
+    margin-left: 5px;
+    margin-top:-33px ;
+    position: absolute;
+    z-index: -1;
+}
+div.footer .copyright{
+    background-color: black;
+    border-top: 2px solid #c40000;
+    margin-top: 20px;
+}
+div.footer div.copyright div.white-line{
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+div.footer div.copyright div.white-line a{
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+div.footer div.copyright div.white-line span.slash{
+    color: white;
+}
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+div.license span{
+    color: #A4A4A4;
+}
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color: #686868;
+}

@@ -1,0 +1,173 @@
+/*css初始化*/
+*{
+    box-sizing: content-box;
+}
+html,body,div,span,a,img,button{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+    vertical-align: middle;
+}
+/*css初始化*//*<!--导航-->*/
+.top{
+    height: 31px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+nav.top span,nav.top a{
+    color: #999;
+    margin: 0 10px 0 10px;
+}
+.redColor{
+    color: #C40000 !important;
+}
+nav.top{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover{
+    color: #C40000;
+}
+.demo-icon:before{
+    font-size: 14px;
+}
+
+/*支付页面*/
+div.aliPayPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+    padding-bottom: 40px;
+    text-align: center;
+}
+div.aliPayPageLogo{
+    margin: 20px;
+}
+div.aliPayPageLogo img{
+    vertical-align: middle;
+}
+span.confirmMoneyText{
+    color: #4D4D4D;
+}
+span.confirmMoney{
+    display: block;
+    color:#FF6600;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+button.confirmPay{
+    background-color: #00AAEE;
+    border: 1px solid #00AAEE;
+    line-height: 31px;
+    font-size: 14px;
+    color: white;
+    width: 107px;
+    font-weight: 700px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*页脚1*/
+div.footer{
+    position: relative;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 auto;
+}
+div.footer .footer-ensure{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+div.footer .footer-desc{
+    padding-top: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+div.horizontal_line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;
+}
+div.descColumn{
+    width:20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+div.footer .descColumn span{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.footer .descColumn a{
+    display: block;
+    margin-top: 3px;
+    color: #999;
+    text-decoration: none;
+}
+div.footer .descColumn a:hover{
+    color: #c40000;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+div.footer .copyright div.middle-right{
+    max-width: 1024px;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+}
+.cateye{
+    margin-left: 5px;
+    margin-top:-33px ;
+    position: absolute;
+    z-index: -1;
+}
+div.footer .copyright{
+    background-color: black;
+    border-top: 2px solid #c40000;
+    margin-top: 20px;
+}
+div.footer div.copyright div.white-line{
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+div.footer div.copyright div.white-line a{
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+div.footer div.copyright div.white-line span.slash{
+    color: white;
+}
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+div.license span{
+    color: #A4A4A4;
+}
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color: #686868;
+}

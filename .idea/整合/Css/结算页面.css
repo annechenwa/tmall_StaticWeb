@@ -1,0 +1,335 @@
+/*css初始化*/
+*{
+    box-sizing: content-box;
+}
+html,body,div,span,a,img,button{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+    vertical-align: middle;
+}
+/*css初始化*/
+/*<!--导航-->*/
+.top{
+    height: 31px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+nav.top span,nav.top a{
+    color: #999;
+    margin: 0 10px 0 10px;
+}
+.redColor{
+    color: #C40000 !important;
+}
+nav.top{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover{
+    color: #C40000;
+}
+.demo-icon:before{
+    font-size: 14px;
+}
+/*结算页面*/
+div.buyPageDiv{
+    max-width: 1013px;
+    margin: 20px auto;
+}
+div.address{
+    padding: 20px 5px;
+    text-align: left;
+}
+div.address div.addressTip,div.productList div.productListTip{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+table.addressTable{
+    margin: 20px 20px;
+    width: 600px;
+}
+table.addressTable td.firstColumn{
+    width: 100px;
+}
+table.addressTable td{
+    color: #333;
+    vertical-align: top;
+    height: 30px;
+    text-align: left;
+    padding-right: 5px;
+}
+table.addressTable td textarea{
+    width: 400px;
+    border: 1px solid #AFAFAF;
+    margin-bottom: 10px;
+}
+table.addressTable td input{
+    width: 200px;
+    border: 1px solid #AFAFAF;
+
+}
+span.redStar{
+    font-size: 8px;
+    color: red;
+}
+
+/*确定订单信息*/
+div.productList div.productListTip{
+    margin-top: -20px;
+}
+table.productListTable{
+    width: 100%;
+    border-collapse: separate;
+}
+table.productListTable th{
+    color: #999;
+    padding-bottom: 5px;
+    font-weight: normal;
+    text-align: center;
+}
+table.productListTable th.productListTableFirstColumn{
+    text-align: left!important;
+}
+table.productListTable th img{
+    display: inline-block;
+    width: 15px;
+}
+table.productListTable th a.marketLink{
+    color: black;
+}
+table.productListTable th a.marketLink:hover{
+    text-decoration:underline;
+}
+span.wangwangGif{
+    display: inline-block;
+    background-image: url("../img/site/wangwang.gif");
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: scroll;
+    background-position: -83px -0px;
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+table.productListTable tr.rowborder td{
+    background-color: #b2d1ff;
+    border-right: 2px solid #fff;
+    height: 3px;
+}
+tr.orderItemTR td.orderItemFirstTD{
+    text-align: left;
+}
+tr.orderItemTR td{
+    padding: 10px 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+img.orderItemImg{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E9E9E9;
+}
+td.orderItemProductInfo a{
+    display: block;
+    color: #666;
+}
+td.orderItemProductInfo a:hover{
+    text-decoration: underline;
+}
+td.orderItemProductInfo img{
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+}
+tr.orderItemTR td.orderItemProductInfo{
+    text-align: left;
+}
+tbody.productListTableTbody td{
+    text-align: center;
+}
+span.orderItemProductPrice,span.orderItemProductNumber{
+    color: #000;
+}
+span.orderItemUnitSum{
+    color: #CC0000;
+    font-weight: bold;
+}
+td.orderItemFirstTD, td.orderItemLastTD{
+    border-bottom: 0px solid black !important;
+}
+label.orderItemDeliveryLabel{
+    color: #666;
+}
+select.orderItemDeliverySelect{
+    width: 100px;
+    height: 23px;
+}
+div.orderItemSumDiv{
+    border-top: 2px solid  #B4D0FF;
+    background-color: #F2F6FF;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+div.orderItemSumDiv span{
+    color: #999;
+}
+span.leaveMessageText{
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+img.leaveMessageImg{
+    display: inline-block;
+}
+textarea.leaveMessageTextarea {
+    border: 1px solid #FFAD35;
+    width: 250px;
+    height: 60px;
+    resize: none;
+}
+div.orderItemTotalSumDiv{
+    margin: 40px;
+    height: 40px;
+}
+div.orderItemTotalSumDiv span{
+    color: #999;
+}
+div.orderItemTotalSumDiv span.orderItemTotalSumSpan{
+    color: #C40000 !important;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px dotted #F2F6FF;
+
+}
+div.submitOrderDiv{
+    height: 40px;
+    margin: 20px 0px;
+}
+div.buyPageDiv button {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 180px;
+    height: 40px;
+}
+button.submitOrderButton {
+    border: 1px solid #C40000;
+    background-color: #C40000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    float: right;
+}
+/*页脚1*/
+div.footer{
+    position: relative;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 auto;
+}
+div.footer .footer-ensure{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+div.footer .footer-desc{
+    padding-top: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+div.horizontal_line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;
+}
+div.descColumn{
+    width:20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+div.footer .descColumn span{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.footer .descColumn a{
+    display: block;
+    margin-top: 3px;
+    color: #999;
+    text-decoration: none;
+}
+div.footer .descColumn a:hover{
+    color: #c40000;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+div.footer .copyright div.middle-right{
+    max-width: 1024px;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+}
+.cateye{
+    margin-left: 5px;
+    margin-top:-33px ;
+    position: absolute;
+    z-index: -1;
+}
+div.footer .copyright{
+    background-color: black;
+    border-top: 2px solid #c40000;
+    margin-top: 20px;
+}
+div.footer div.copyright div.white-line{
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+div.footer div.copyright div.white-line a{
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+div.footer div.copyright div.white-line span.slash{
+    color: white;
+}
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+div.license span{
+    color: #A4A4A4;
+}
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color: #686868;
+}

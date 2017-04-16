@@ -1,0 +1,330 @@
+/*<!--导航-->*/
+.top{
+    height: 31px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    font-family: Arial;
+}
+nav.top span,nav.top a{
+    color: #999;
+    margin: 0 10px 0 10px;
+}
+.redColor{
+    color: #C40000 !important;
+}
+nav.top{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top a:hover{
+    color: #C40000;
+}
+.demo-icon:before{
+    font-size: 14px;
+}
+
+/*搜索框*/
+div.simpleSearchOutDiv a:hover{
+    color:#C40000!important;
+    text-decoration: underline;}
+
+body{
+    font-size:12px;
+    font-family:Arial;
+}
+div.searchDiv{
+    background-color: #C40000;
+    width: 400px;
+    margin: 50px auto;
+    padding: 1px;
+    height: 40px;
+    display: block;
+}
+div.searchDiv input{
+    width: 275px;
+    border: 1px solid transparent;
+    height: 36px;
+    margin: 1px;
+    outline: none;
+}
+.searchButton{
+    width: 110px;
+    color: white;
+    background-color:#C40000 ;
+    font-size: 20px;
+    border: 1px solid transparent;
+    font-weight: bold;
+}
+div.searchBelow{
+    margin-top: 3px;
+    margin-left: -20px;
+}
+.searchBelow span{
+    color: #999;
+}
+div.searchBelow a{
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #999;
+}
+img.logo{
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    z-index: -1;
+}
+div.simpleSearchOutDiv{
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+     /*排序和价格*/
+ div.categoryPageDiv{
+     max-width: 1013px;
+     margin: 10px auto;
+ }
+div.categoryPageDiv div.categorySortBar{
+    margin: 40px 20px 20px 20px;
+    padding: 4px;
+    background-color: #FAF9F9;
+    height: 34px;
+}
+div.categoryPageDiv div.categorySortBar table.categorySortBarTable{
+    border-collapse: collapse;
+    display: inline-block;
+}
+div.categoryPageDiv div.categorySortBar table.categorySortBarTabl td.glyphicon{
+    font-size: 10px;
+}
+td.grayColumn{
+    background-color: #F1EDEC;
+}
+table.categorySortBarTable td{
+    height: 25px;
+    padding: 3px;
+    border: 1px solid #F1EDEC ;
+    font-size: 12px;
+}
+table.categorySortBarTable td a{
+    text-decoration: none;
+    color: #806F66;
+}
+table.categorySortBarTable td a:hover{
+    color:#C40000 ;
+}
+table.categorySortBarTable input{
+    width: 50px;
+    border-width: 0px;
+    height: 100%;
+    box-sizing: border-box!important;
+}
+table.categorySortBarTable td.priceMiddleColumn{
+    width: 5px;
+    vertical-align: middle;
+    color: #CCCCCC;
+
+}
+/*排序和价格*/
+/*产品列表*/
+body{
+    font-size: 12px;
+    font-family: Arial;
+
+}
+
+div.categoryPageDiv{
+    max-width: 1013px;
+    margin: 10px auto;
+}
+div.categoryProducts{
+    padding: 0px 20px 40px 20px;
+    box-sizing: border-box;
+}
+div.categoryProducts div.productUnit{
+    width: 225px;
+    height: 332px;
+    border: 3px solid white;
+    background-color: white;
+    margin: 12px 5px;
+    padding: 0px;
+    float: left;
+    box-sizing: content-box;
+    -moz-box-sizing:content-box;
+}
+div.productUnit div.productUnitFrame{
+    border:1px solid #eee;
+    height: 332px;
+    box-sizing: border-box;
+}
+div.categoryProducts div.productUnit div.productUnitFrame a{
+    text-decoration: none;
+    color: #999;
+}
+div.categoryProducts div.productUnit div.productUnitFrame img.productImage{
+    width: 100%;
+    height: 190px;
+    vertical-align: middle;
+}
+div.categoryProducts div.productUnitFrame span.productPrice{
+    font-size: 20px;
+    padding-left: 4px;
+    color: #cc0000;
+    display: block;
+    box-sizing: border-box;
+}
+div.categoryProducts div.productUnit div.productUnitFrame a.productLink{
+    margin: 10px 0;
+    color: #333333;
+    display: block;
+}
+div.productUnit div.productUnitFrame a.tmallLink{
+    text-decoration: underline;
+    margin: 10px 0;
+    display: block;
+}
+div.categoryProducts div.productUnit div.productUnitFrame div.show1.productInfo{
+    border-top: 1px solid #eee;
+    color: #999;
+}
+div.productUnitFrame div.show1.productInfo{
+    height: 31px;
+}
+div.productUnitFrame div.show1.productInfo span.monthDeal{
+    display: inline-block;
+    width: 83px;
+    height: 29px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+div.productUnitFrame div.show1 span.productDealNumber{
+    font-weight: bold;
+    color: #B57C5B;
+}
+div.productUnitFrame div.show1.productInfo span.productReview{
+    display: inline-block;
+    width: 90px;
+    height: 29px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #EEEEEE;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #EEEEEE;
+    box-sizing: border-box;
+}
+span.productReview span.productReviewNumber{
+    font-weight: bold;
+    color: #3388BB;
+}
+div.productInfo span.wangwang{
+    margin-left: 3px;
+}
+div.productInfo span a img{
+    vertical-align: middle;
+}
+div.categoryPageDiv div.categoryProducts div.productUnit div.productUnitFrame a.tmallLink:hover{
+    text-decoration: underline;
+    color: #C40000;
+    字体颜色: #C40000
+}
+div.categoryProducts div.productUnit div.productUnitFrame:hover {
+    border: 1px solid #C40000;
+}
+div.categoryProducts div.productUnit:hover{
+    border:3px solid #C40000;
+}
+/*产品列表*/
+/*页脚1*/
+div.footer{
+    position: relative;
+    border-top: 1px solid #e7e7e7;
+    margin: 0 auto;
+}
+div.footer .footer-ensure{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+div.footer .footer-desc{
+    padding-top: 30px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+div.horizontal_line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e7e7e7;
+}
+div.descColumn{
+    width:20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+div.footer .descColumn span{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.footer .descColumn a{
+    display: block;
+    margin-top: 3px;
+    color: #999;
+    text-decoration: none;
+}
+div.footer .descColumn a:hover{
+    color: #c40000;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+div.footer .copyright div.middle-right{
+    max-width: 1024px;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+}
+.cateye{
+    margin-left: 5px;
+    margin-top:-33px ;
+    position: absolute;
+    z-index: -1;
+}
+div.footer .copyright{
+    background-color: black;
+    border-top: 2px solid #c40000;
+    margin-top: 20px;
+}
+div.footer div.copyright div.white-line{
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+div.footer div.copyright div.white-line a{
+    color: white;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+div.footer div.copyright div.white-line span.slash{
+    color: white;
+}
+div.license{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+div.license span{
+    color: #A4A4A4;
+}
+div.license div.copyRightYear{
+    margin: 10px 0px;
+    color: #686868;
+}
